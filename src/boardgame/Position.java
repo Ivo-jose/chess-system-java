@@ -21,13 +21,12 @@ public class Position {
 		return column;
 	}
 	
-	//Class operation
+	//Methods
 	public void setValues(int row, int column) {
 		this.row = row;
 		this.column = column;
 	}
 	
-	//Print position on screen
 	@Override
 	public String toString() {
 		return row +", "+column;
